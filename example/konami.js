@@ -5,7 +5,7 @@ Konami.I = 0;
 Konami.cooldown = {};
 Konami.onCodePerform = function(){};
 
-document.getElementsByTagName('body')[0].addEventListener('keydown', function(event) {
+document.addEventListener('keydown', function(event) {
 	
 	if (event.keyCode == Konami.table[Konami.I]) {
 		if (Konami.cooldown) {
