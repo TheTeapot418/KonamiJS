@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div#ftw {
+	opacity: 0;
+	text-align: center;
+	color: #309595;
+	background-color: rgb(42, 255, 75);
+	font-size: 100px;
+	font-family: "Impact";
+	transition: opacity 0.2s;
+}
