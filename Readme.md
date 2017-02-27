@@ -7,7 +7,7 @@ This is a small JavaScript library, that allow you to easily trigger an action o
 
 Include the library before your main script. To execute some JS when the code is performed, use :
 ```
-Konami.onCodePerform = function() {
+Konami.onCodePerformed = function() {
   //Place your code here
 }
 ```

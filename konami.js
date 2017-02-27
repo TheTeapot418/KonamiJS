@@ -3,7 +3,7 @@ var Konami = {};
 Konami.table = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 Konami.I = 0;
 Konami.cooldown = {};
-Konami.onCodePerform = function(){};
+Konami.onCodePerformed = function(){};
 
 document.addEventListener('keydown', function(event) {
 	
@@ -15,7 +15,7 @@ document.addEventListener('keydown', function(event) {
 			Konami.I = 0;
 		}, 1000);
 		if (Konami.I == 9) {
-			Konami.onCodePerform();
+			Konami.onCodePerformed();
 		} else {
 			Konami.I++;
 		}
